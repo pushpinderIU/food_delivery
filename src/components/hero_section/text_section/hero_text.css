@@ -1,0 +1,16 @@
+.shiny-text {
+    animation: shine 2s infinite alternate;
+    /* Apply the shine animation */
+}
+
+@keyframes shine {
+    from {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        /* Initial text shadow */
+    }
+
+    to {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+        /* Final text shadow */
+    }
+}
